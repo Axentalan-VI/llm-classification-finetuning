@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Secrets ---
+*.env
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+
+# --- Kaggle data (large, licensed) ---
+data/
+!data/.gitkeep
+!data/README.md
+
+# --- Caches / outputs (large artifacts) ---
+output/
+outputs/
+mel_cache/
+embeddings/
+checkpoints/
+runs/
+wandb/
+mlruns/
+logs/
+tmp/
+.cache/
+
+# --- Model weights ---
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.pkl
+*.joblib
+
+# --- Big archives / wheels ---
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.whl
+
+# --- Replays / HTML dumps ---
+replays/
+
+# --- Misc artifacts ---
+submissions/
+submission*.csv
+*.parquet
