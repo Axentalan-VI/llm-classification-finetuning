@@ -6,7 +6,9 @@ Predict which LLM response users prefer (3-class: model A wins / model B wins / 
 
 **No scored submission yet.** One submission was made (2026-04-07, the
 Gemma2-2B QLoRA training notebook) and came back without a public score, so
-nothing here has been measured against the leaderboard. The "Expected
+nothing here has been measured against the leaderboard. The competition closed
+on 2024-08-12, so it cannot be: the entry is unranked among 1849 teams and this
+repo is a record of the approach, not of a result. The "Expected
 Performance" section below is a projection, not a result.
 
 ## Quick Start
